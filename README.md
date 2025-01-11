@@ -1,2 +1,1 @@
-# brainy7890
-this is just my website.
+My person website! Cool!
