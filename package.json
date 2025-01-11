@@ -1,0 +1,17 @@
+{
+    "name": "brainy7890-reverse-proxy",
+    "version": "1.0.0",
+    "description": "Reverse Proxy for OpenAI API using Netlify Functions",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "axios": "^1.4.0"
+    },
+    "devDependencies": {},
+    "engines": {
+      "node": "16.x"
+    }
+  }
+  

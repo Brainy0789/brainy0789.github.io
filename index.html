@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="game, programming, music, video game, coding, Brainy7890, 90s, retro, ">
+    <title>Brainy7890 - Homepage</title>
+    <link id="stylesheet" rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/pfp.jpg" type="images/jpg">
+</head>
+<body>
+    <a href="index.html"><img src="images/logo.png" alt="logo" height="50px"></a>
+    <header>
+        <marquee behavior="scroll" direction="left">ANNOUNCEMENTS: CRATES 3 DEVLOG OUT NOW</marquee>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#about">About</a> |
+        <a href="music.html">Music</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Brainy7890's Digital Domain</h1>
+        <p>Welcome to my little corner of the internet! Take a look around!</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/crates-logo.png" alt="Crates Logo" width="200px">
+                <h3>Crates</h3>
+                <p>My first game. It's a PuzzleScript game, and not very great, but you can play it here!
+                </p>
+                <a href="projects/crates.html">Play online!</a><br>
+                <a href="cratesdetails.html">Details</a>
+            </div>
+            <div class="project-card">
+                <img src="images/crates2-logo.png" alt="Crates 2 Logo" width="200px">
+                <h3>Crates 2</h3>
+                <p>A sequel to Crates. A little longer, and a little better!</p>
+                <a href="projects/crates2.html">Play online!</a>
+            </div>
+            <div class="project-card">
+                <h3>Crates 3: Reign of ERROR</h3>
+                <p>The final game in the Crates series. It isn't finished yet! Read the devlog if you feel like!</p>
+                <a href="projects/crates3/devlog.html">Read devlog!</a>
+            </div>
+            <div class="project-card">
+                <h3>Quest For Something</h3>
+                <img src="images/cloudstuck.png" alt="Cloudstuck Logo" width="200px">
+                <p>A scrapped version of Quest For Something!!</p>
+                <a href="https://questforsomething.netlify.app">Read online!</a>
+            </div>
+            <div class="project-card">
+                <h3>Quest for Something: Story Version</h3>
+                <p>An actual story version of Quest for Something. By the way, the Quest for Something story varies with each version. For example, if your thinking of Cloudstuck, that is a lot different than any of the other ones, although THE CREATOR did inspire furture characters in both the story and Twine version.</p>
+            </div>
+            <div class="project-card">
+                <h3>Quest for Something: Twine Version</h3>
+                <p>A version of a webcomic I was making made entirely in Twine.</p>
+                <a href="projects/questforsomething.html">Play online!</a>
+            </div>
+            <div class="project-card">
+                <h3>Cloudstuck</h3>
+                <img src="images/cloudstuck.png" alt="Cloudstuck Logo" width="200px">
+                <p>A MS Paint Fan Adventure based of Quest for Something.</p>
+                <a href="https://mspfa.com/?s=59870">Read here!</a>
+            </div>
+            <div class="project-card">
+                <h3>BrainyChat Alpha</h3>
+                <p>A W.I.P. Chat Webapp! Currently uses Disqus, but soon I'll use WebRTC for the Beta release!</p>
+                <a href="chat/alpha/index.html">Chat here!</a>
+            </div>
+            <div class="project-card">
+                <h3>BrainyChat Beta</h3>
+                <p>A W.I.P. Chat Webapp! Doesn't work yet.</p>
+                <a href="chat/index.html">Chat here!</a>
+            </div>
+            <div class="project-card">
+                <h3>Dave and Bambi Brainfunk/Conbi's Stadium</h3>
+                <p>My Dave and Bambi FNF Mod.</p>
+                <a href="https://www.bandlab.com/bands/17b259c8-4c07-ef11-aaf0-000d3aa5105b">Bandlab Band</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Brainy7890, a coder, musician, game developer, and occasional writer. I love crafting unique digital experiences!</p>
+    </section>
+    <script src='scripts/main.js'></script>
+    <!-- Visitor Counter -->
+    <p>You're visitor number: <span id="visitor-counter">0</span></p>
+    <p>Click this button to de-stylize!<br><br><button onclick="delinkCSS()">De-stylize</button></p>
+</body>
+</html>
