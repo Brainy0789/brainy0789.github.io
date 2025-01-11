@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    background-color: #2C2F33; /* Dark background */
+    color: #FFFFFF; /* White text */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Messages Container */
+#messages {
+    width: 80%;
+    flex: 1; /* Allow the messages container to grow and take remaining space */
+    overflow-y: auto; /* Enable scrolling */
+    background-color: #23272A; /* Darker background for messages */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+/* Message styling */
+#messages p {
+    background-color: #3E4145; /* Message background */
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Input and Button Styling */
+#inputContainer {
+    display: flex; /* Align input and button in a row */
+    width: 80%; /* Full width of the container */
+    padding: 10px; /* Vertical padding */
+    position: fixed; /* Position fixed at the bottom */
+    bottom: 0; /* Align to the bottom */
+    left: 10%; /* Center it horizontally */
+    background-color: #2C2F33; /* Match body background */
+}
+
+input[type="text"] {
+    flex: 1; /* Make the input take up available space */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #7289DA; /* Discord color */
+    margin-right: 10px;
+    background-color: #40444B; /* Dark input background */
+    color: #FFFFFF; /* White text */
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #7289DA; /* Discord color */
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5B6EAE; /* Darker shade on hover */
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #2C2F33;
+    margin: 5% auto; /* Center modal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Width of modal */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
