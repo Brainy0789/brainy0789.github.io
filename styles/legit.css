@@ -1,0 +1,116 @@
+/* General reset and layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', 'Courier New', cursive;
+    color: #ff0 !important; /* Bright yellow text everywhere */
+    text-shadow: 1px 1px 0 #000; /* Shadow for that bold look */
+}
+
+body {
+    background: url('https://www.example.com/tiled-background.gif') repeat;
+    background-color: #ff00ff; /* Magenta backup color */
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+/* Header and Titles */
+h1, h2, h3 {
+    color: #00ff00; /* Neon green */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    animation: blink 1s infinite; /* Blinking header text */
+    text-shadow: 2px 2px 4px #0000ff; /* Bold blue shadow */
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #ff0000; /* Bold red for H2s */
+}
+
+h3 {
+    font-size: 2em;
+}
+
+/* Blinking effect */
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+}
+
+/* Main content styling */
+p, li {
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00ffff; /* Cyan links */
+    font-weight: bold;
+    text-decoration: none;
+    animation: blink 2s infinite; /* Blinking links */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff00ff; /* Flash to magenta on hover */
+}
+
+marquee {
+    font-size: 1.5em;
+    color: #ff0000;
+    background-color: #000;
+    padding: 5px;
+    border: 3px double #00ff00;
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #00ff00;
+    color: #000;
+    font-size: 1.25em;
+    padding: 10px;
+    border: 2px outset #ff00ff;
+    cursor: pointer;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Footer styling */
+footer {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #000;
+    border-top: 5px double #ff0000;
+}
+
+/* Image styling */
+img {
+    border: 5px solid #00ffff;
+    box-shadow: 5px 5px 0px #ff00ff;
+    max-width: 100%;
+}
+
+/* Styling for the changing number */
+.dynamic-price {
+    font-size: 1em; /* Adjusted to standard size so it stays inline */
+    font-family: 'Courier New', monospace; /* Classic monospace font for a retro feel */
+    color: #ff00ff; /* Neon pink */
+    text-shadow: 1px 1px 2px #000; /* Subtle shadow effect */
+    display: inline; /* Ensures it remains inline */
+}
+

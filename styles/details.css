@@ -1,0 +1,20 @@
+p {
+    width: 325px;
+}
+
+.spoiler-content {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+.spoiler-button {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+#hide {
+    color: white;
+}
